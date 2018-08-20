@@ -1,0 +1,36 @@
+// mixins
+
+=trasition($value)
+	
+	-webkit-transition : all $value
+	-moz-transition    : all $value
+	-o-transition      : all $value
+	transition         : all $value
+
+=border-radius($radios)
+	-webkit-border-radius: $radios
+	-moz-border-radius: $radios
+	-o-border-radius: $radios
+	border-radius: $radios
+
+
+=blur($num)
+	-webkit-filter: blur($num)
+	-moz-filter: blur($num)
+	-o-filter: blur($num)
+	-ms-filter: blur($num)
+	filter: blur($num)
+
+=centralize($top, $left)
+	-webkit-transform: translate( $top, $left )	
+	-moz-transform: translate( $top, $left )	
+	-o-transform: translate( $top, $left )	
+	-ms-transform: translate( $top, $left )		
+	transform: translate( $top, $left )	
+
+=bottonMove( $toTop, $toLeft )
+	-webkit-transform : translate($toTop , $toLeft)
+	-moz-transform : translate($toTop , $toLeft)
+	-o-transform : translate($toTop , $toLeft)
+	-ms-transform : translate($toTop , $toLeft)
+	transform : translate($toTop , $toLeft)
